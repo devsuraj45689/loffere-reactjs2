@@ -1,6 +1,7 @@
 import React from 'react';
-import { Header } from '../../pages/Home/Header';
-import Footer from '../../sections/Footer';
+// import { Header } from '../../pages/Home/Header';
+// import Footer from '../../sections/Footer';
+import { Header,Footer } from 'sections';
 import NavBar from '../NavBar';
 import PrivacyPolicyContent from './PrivacyPolicyContent';
 const PrivacyPage = () => {

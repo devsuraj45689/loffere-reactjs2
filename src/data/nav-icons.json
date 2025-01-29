@@ -1,0 +1,37 @@
+[
+  {
+    "iconName": "Saved",
+    "iconType": "HeartIcon",
+    "iconSize": "w-[14px] h-[12.5px]",
+    "isActiveClass": "h-icon-active",
+    "args": ["Saved"]
+  },
+  {
+    "iconName": "Inbox",
+    "iconType": "MessageIcon",
+    "iconSize": "w-[15px] h-[13px]",
+    "isActiveClass": "h-icon-active",
+    "args": ["Inbox"]
+  },
+  {
+    "iconName": "Post",
+    "iconType": "PostIcon",
+    "iconSize": "w-[15px] h-[15px]",
+    "isActiveClass": "h-icon-active",
+    "args": ["Post"]
+  },
+  {
+    "iconName": "My Jobs",
+    "iconType": "JobsIcon",
+    "iconSize": "w-[14px] h-[14px]",
+    "isActiveClass": "h-icon-active",
+    "args": ["MyJobs"]
+  },
+  {
+    "iconName": "My Items",
+    "iconType": "ItemsIcon",
+    "iconSize": "w-[16px] h-[12.8px]",
+    "isActiveClass": "h-icon-active",
+    "args": ["MyItems"]
+  }
+]

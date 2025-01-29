@@ -1,0 +1,21 @@
+{
+    "categories": [
+      { "id": 1, "name": "Home appliances", "icon": "home_appliances_icon"},
+      { "id": 2, "name": "Furniture, Home & Garden", "icon": "furniture_home_garden_icon"},
+      { "id": 3, "name": "Clothing & Accessories", "icon": "clothing_accessories_icon"},
+      { "id": 4, "name": "Pets", "icon": "pets_icon"},
+      { "id": 5, "name": "Cars & Vehicles", "icon": "cars_vehicles_icon"},
+      { "id": 6, "name": "Electronics", "icon": "electronics_icon"},
+      { "id": 7, "name": "Cameras & Imaging", "icon": "cameras_imaging_icon"},
+      { "id": 8, "name": "Jewellery & Watches", "icon": "jewellery_watches_icon"},
+      { "id": 9, "name": "Mobile Phones & Tablets", "icon": "mobile_phones_tablets_icon"},
+      { "id": 10, "name": "Consoles and Video Games", "icon": "consoles_video_games_icon"},
+      { "id": 11, "name": "Musical Instruments", "icon": "musical_instruments_icon"},
+      { "id": 12, "name": "Automotive & Vehicles", "icon": "automotive_vehicles_icon"},
+      { "id": 13, "name": "Sports Equipment", "icon": "sports_equipment_icon"},
+      { "id": 14, "name": "Property", "icon": "property_icon"},
+      { "id": 15, "name": "Computers & Networking", "icon": "computers_networking_icon"},
+      { "id": 16, "name": "Classifieds", "icon": "classifieds_icon"}
+    ]
+  }
+  

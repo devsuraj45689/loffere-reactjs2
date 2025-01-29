@@ -1,0 +1,38 @@
+@media (min-width: 281px) and (max-width: 480px) {
+  .otp-input div input {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+}
+
+.otp-input div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 576px) {
+  .OTP-Modal-dialog .modal-dialog {
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Login-Modal .modal-dialog {
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Registration-Modal .modal-dialog {
+    max-width: 38%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.modal-content {
+  border-radius: 12px;
+}
+.OTP-Modal-dialog .modal-close-btn {
+  right: -32px;
+  top: -4px;
+}

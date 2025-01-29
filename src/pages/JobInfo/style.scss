@@ -1,0 +1,64 @@
+.exmpty_container {
+  height: 130px;
+  background-color: #2cb1b529;
+}
+
+@media only screen and (max-width: 450px) {
+  .exmpty_container {
+    height: 90px;
+  }
+}
+
+.main_container {
+  padding: 0 3rem;
+  font-family: poppins;
+  background-color: #fff;
+}
+
+.main_container .job_header .company_logo {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: -85px;
+}
+
+@media only screen and (max-width: 450px) {
+  .main_container .job_header .company_logo {
+    width: 80px;
+    height: 80px;
+    margin-top: -65px;
+  }
+}
+
+.apply_now_button {
+  background-color: #2cb1b5;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+.job_header {
+  padding: 2rem 0;
+}
+
+.main_container .job_info_list .company_circle_logo img,
+.main_container
+  .job_info_list
+  .company_circle_logo
+  .company_circle_logo_container {
+  width: 46px !important;
+  height: 46px !important;
+}
+
+.main_container .job_info_list ul {
+  padding-left: 0 !important;
+}
+
+.main_container .job_info_list .react-multi-carousel-list {
+  padding-left: 0 !important;
+}

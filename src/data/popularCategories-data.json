@@ -1,0 +1,10 @@
+[
+  { "image_url": "vec_1", "text": "Home Appliances" },
+  { "image_url": "vec_2", "text": "Console and Video Games" },
+  { "image_url": "vec_3", "text": "Electronics" },
+  { "image_url": "vec_4", "text": "Musical Instrument" },
+  { "image_url": "vec_5", "text": "Furniture" },
+  { "image_url": "vec_6", "text": "Mobile Phone & Tablets" },
+  { "image_url": "vec_7", "text": "Clothing Accessories" },
+  { "image_url": "vec_8", "text": "Pet Products" }
+]

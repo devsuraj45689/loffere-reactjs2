@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../../assets/font/Poppins/Poppins-Regular.ttf');
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .right {
+    width: 70%;
+    min-width: 60%;
+    padding-right: 3rem;
+
+    .filter-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .product-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  .left {
+    min-width: 25%;
+    width: 25%;
+    padding-left: 3rem;
+
+    .ads {
+      min-width: 100%;
+      margin-top: 4rem;
+
+      img {
+        min-width: 330px;
+      }
+    }
+  }
+}
+
+.filter-dropdown {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.product-category-card {
+  background: #f3f3f3;
+  font-family: Poppins;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  margin-right: 1.2rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+
+  .product-card-subtitle {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5c5c5c;
+  }
+
+  .product-card-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1b1b1b;
+  }
+
+  .product-price {
+    font-family: Poppins;
+    font-size: 22px;
+    color: #2cb1b5;
+  }
+}
+
+.breadcrumb-wrapper {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: Poppins;
+
+  ol.breadcrumb {
+    padding-left: 0px !important;
+  }
+
+  li.breadcrumb-item {
+    align-items: center;
+    display: flex;
+    line-height: 1.5;
+    padding-left: 0.2rem;
+    text-decoration-color: #2cb1b5;
+  }
+
+  .breadcrumb-item a {
+    color: #1b1b1b;
+    text-decoration: none;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+
+  .breadcrumb-item.active {
+    color: #2cb1b5; /* Custom active breadcrumb color */
+  }
+
+  .breadcrumb-item.active::before {
+    color: #2cb1b5; /* Optional: Update separator color if needed */
+
+    margin-right: 0.3rem !important;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    /* content:var(--bs-breadcrumb-divider,"") !important ; */
+    content: '';
+    background: url('src/assets/icons/generic/chevrons-right-grey.png')
+      no-repeat center center;
+    background-size: contain; /* Adjust the size of the icon */
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    padding: 0.3rem;
+  }
+}
+
+.category-title {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.accordion-wrapper {
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 8px;
+
+  .accordion-title {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+}

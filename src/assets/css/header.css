@@ -1,0 +1,146 @@
+.header-icon-left {
+  margin-left: 4%;
+}
+.header-icon-text {
+  font-size: 10px;
+  font-weight: bold;
+  color: #5e5e5e;
+}
+.checkPostCard {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  /* border: 2px solid #2cb1b5; */
+  border-radius: 50%; /* Creates a circular shape */
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.checkPostCard:checked {
+  background-color: #2cb1b5; /* Background color when checked */
+}
+
+.checkPostCard:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0px 2px 2px 0;
+  transform: translate(-50%, -50%) rotate(60deg); /* Arrow points to the right */
+  display: inline-block;
+}
+
+.checkPostCard {
+  /* height: 50px; 
+    width: 18px;  */
+  /* border-bottom: 10px solid green; 
+    border-right: 10px solid green;  */
+  margin: 0 20px;
+  border-radius: 55px;
+}
+
+@media (max-width: 280px) {
+  .header-logo {
+    width: 100px; /* Smaller size for very small screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .curousel-img-res {
+    width: fit-content;
+    height: 100%;
+  }
+}
+
+@media (min-width: 281px) and (max-width: 480px) {
+  .header-logo {
+    width: 150px; /* Adjust size for mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .sm-display-none {
+    display: none;
+  }
+  .curousel-img-res {
+    width: fit-content;
+    height: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-logo {
+    width: 180px; /* Larger size for larger mobile devices */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .curousel-img-res {
+    width: fit-content;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header-logo {
+    width: 200px; /* Default size for tablets */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .carousel-h-310 {
+    height: 310px;
+  }
+  .curousel-img-res {
+    width: fit-content;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-logo {
+    width: 200px; /* Size for desktops */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .carousel-h-310 {
+    height: 310px;
+  }
+}
+
+.h-icon-active {
+  border-bottom: 5px solid #2cb1b5;
+  border-radius: 5px;
+}
+.header-icon {
+  cursor: pointer;
+}
+
+/* Container for alignment */
+.social-login-buttons {
+  text-align: center;
+} /* Text with side lines */
+.social-login-buttons p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #1b1b1b;
+}
+
+.social-login-buttons p::before,
+.social-login-buttons p::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid #c5c8c9;
+  margin: 0 10px;
+}
+
+/* Flex container for icons */
+.social-login-buttons .icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  margin-top: 10px;
+}

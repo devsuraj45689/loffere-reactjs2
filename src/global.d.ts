@@ -1,0 +1,30 @@
+// src/global.d.ts or global.d.ts in the root
+declare module 'aria-query';
+declare module 'babel__core';
+declare module 'babel__generator';
+declare module 'babel__template';
+declare module 'babel__traverse';
+declare module 'estree';
+declare module 'graceful-fs';
+declare module 'istanbul-lib-coverage';
+declare module 'istanbul-lib-report';
+declare module 'istanbul-reports';
+declare module 'json-schema';
+declare module 'prop-types';
+declare module 'resolve';
+declare module 'stack-utils';
+declare module 'trusted-types';
+declare module 'use-sync-external-store';
+declare module 'yargs';
+declare module 'yargs-parser';
+
+declare module '*.jpg';
+declare module '*.png';
+declare module 'redux-logger';
+declare module 'uuid';
+declare module 'lodash';
+declare module '*.jpeg';
+declare module '*.mp4';
+declare module '*.webp';
+declare module '*.svg';
+declare module '*.json';

@@ -1,0 +1,237 @@
+.product_container {
+  padding: 0 3rem;
+  font-family: poppins;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_container {
+    padding: 0 1rem;
+  }
+}
+
+.mid_radius {
+  border-radius: 15px;
+}
+
+.frame_pad {
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .frame_pad {
+    padding: 1rem 0 !important;
+  }
+}
+
+.mid_margin {
+  margin: 2rem 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .mid_margin {
+    margin: 1rem 0 !important;
+  }
+}
+
+.min_pad {
+  padding: 1rem;
+}
+
+.min_pad_top {
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 575px) {
+  .min_pad_top {
+    padding-top: 1rem !important;
+  }
+}
+
+.product_container .breadcrumb-wrapper {
+  padding-left: 0;
+}
+
+.body_container .product_image_container .product_image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product_image_carousel {
+  width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_image_carousel {
+    padding-top: 1rem;
+  }
+}
+
+.history_button {
+  padding: 10px;
+  color: #2cb1b5;
+  border-radius: 10px;
+  border: 1px solid #2cb1b5;
+}
+
+.follow_button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid #2cb1b5;
+}
+
+.pro_button {
+  color: #2cb1b5;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #2cb1b5;
+  width: 60px;
+}
+
+.report_button {
+  background-color: rgba(44, 177, 181, 0.16);
+  color: #2cb1b5;
+  border-radius: 5px;
+}
+
+.to_book_button {
+  background-color: rgba(44, 177, 181, 1);
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.message_button {
+  border: 1px solid rgba(44, 177, 181, 1);
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.product_image_container .product_image_carousel .react-multi-carousel-list {
+  padding: 0 !important;
+}
+
+.product_image_container
+  .product_image_carousel
+  .react-multi-carousel-list
+  ul
+  li
+  img {
+  height: 140px !important;
+}
+
+.product_image_container
+  .product_image_carousel
+  .react-multi-carousel-list
+  ul
+  li
+  .product-card {
+  background-color: #fff;
+}
+
+.product_image_container
+  .product_image_carousel
+  .react-multi-carousel-list
+  ul
+  li {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_image_container
+    .product_image_carousel
+    .react-multi-carousel-list
+    ul
+    li {
+    width: 138px !important;
+  }
+}
+
+.product_image_container .product_image_carousel .react-multi-carousel-list ul {
+  padding-left: 0 !important;
+}
+
+.product_image_container .product_image_carousel .react-multi-carousel-list {
+  padding: 0 5px !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_carousel_list {
+    padding: 1rem !important;
+  }
+}
+
+.product_carousel_list ul li {
+  padding: 0 0.5rem !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_carousel_list ul li {
+    width: 240px !important;
+  }
+}
+
+@media screen and (min-width: 561px) {
+  .temp_border {
+    display: none;
+  }
+}
+
+.product_carousel_list .react-multi-carousel-list ul li .product-card {
+  background-color: #f3f3f3;
+}
+
+.product_carousel_list .react-multi-carousel-list ul li .product-card img {
+  padding: 10px !important;
+}
+
+.product_carousel_list
+  .react-multi-carousel-list
+  ul
+  li
+  .product-card
+  .card-body
+  img {
+  padding: 0 !important;
+}
+
+.product_carousel_list .react-multi-carousel-list ul li .product-card button {
+  margin: 20px !important;
+}
+
+.product_carousel_list .react-multi-carousel-list {
+  padding-left: 0 !important;
+}
+
+.product_carousel_list .react-multi-carousel-list ul {
+  padding-left: 0 !important;
+  padding-bottom: 10px;
+}
+
+.product_carousel_list .empty_border {
+  width: 60%;
+}
+
+@media only screen and (max-width: 575px) {
+  .product_ads {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .product_ads .profile_container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .product_carousel_header .profile_container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .min_screen_ads {
+    display: none;
+  }
+}

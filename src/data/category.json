@@ -1,0 +1,15 @@
+[
+    {
+      "id": "Post",
+      "image": "../assets/icons/product-icons/product-icon.svg",
+      "title": "Products",
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "id": "Job",
+      "image": "../assets/icons/job-icon/job-icon.svg", 
+      "title": "Jobs",
+      "description": "Lorem ipsum dolor"
+    }
+  ]
+  
